@@ -1,7 +1,10 @@
 {
 	"title":"DevOps产品帮助文档",
+	"author": "qianqi",
 	"description":"DevOps产品一期帮助文档",
 	"language":"zh-hans",
+	"gitbook": "3.2.3",
+	"root": ".",
 	"pdf": {
 		"pageNumbers":true,
 		"fontSize":18,
@@ -18,8 +21,26 @@
 		"-fontsettings",
 		"-lunr",
 		"-highlight",
-		"-search"
+		"-search",
+		"prism",
+		"splitter",
+		"emphasize",
+		"toggle-chapters",
+		"search-plus",
+		"simple-page-toc",
+		"tbfed-pagefooter"
 	],
+	"pluginsConfig": {
+		"tbfed-pagefooter": {
+			"copyright": "Copyright © chinatelecom.cn 2018",
+			"modify_label": "Last Modified：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"simple-page-toc": {
+			"maxDepth": 3,
+			"skipFirstH1": true
+		}
+	},
 	"styles": {
         "website": "styles/website.css"
     }
