@@ -18,8 +18,7 @@
 		"-fontsettings",
 		"-lunr",
 		"-highlight",
-		"-search",
-		"multipart"
+		"-search"
 	],
 	"styles": {
         "website": "styles/website.css"
